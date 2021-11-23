@@ -167,7 +167,8 @@ def read_package(workout_type: str, data: list) -> Training:
         return training_code[workout_type](*data)
     except KeyError:
         print(f'KeyError: «{workout_type}» - от датчиков устройства '
-               'получен неизвестный код тренировки.')
+              'получен неизвестный код тренировки.'
+              )
 
 
 def main(training: Training) -> None:
