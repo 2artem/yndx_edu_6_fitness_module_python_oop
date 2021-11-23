@@ -23,17 +23,13 @@ class InfoMessage:
 
     def get_message(self):
         """Метод возвращает строку сообщения."""
-        out_message = ('Тип тренировки: {}; '
-                       + 'Длительность: {:.3f} ч.; '
-                       + 'Дистанция: {:.3f} км; '
-                       + 'Ср. скорость: {:.3f} км/ч; '
-                       + 'Потрачено ккал: {:.3f}.'
+        out_message = (f'Тип тренировки: {self.training_type}; '
+                       f'Длительность: {self.duration:.3f} ч.; '
+                       f'Дистанция: {self.distance:.3f} км; '
+                       f'Ср. скорость: {self.speed:.3f} км/ч; '
+                       f'Потрачено ккал: {self.calories:.3f}.'
                        )
-        return out_message.format(self.training_type,
-                                  self.duration,
-                                  self.distance,
-                                  self.speed,
-                                  self.calories)
+        return out_message
 
 
 class Training:
@@ -164,12 +160,14 @@ def read_package(workout_type: str, data: list) -> Training:
                      'RUN': Running,
                      'WLK': SportsWalking,
                      }
-    # Возврат созданного объекта соответствующего типу тренировки.
-    if workout_type in training_code:
+    # Возврат созданного объекта соответствующего типу тренировки,
+    # с проверкой наличия класса тренировки для полученного параметра
+    # workout_type от датчиков устройства
+    try:
         return training_code[workout_type](*data)
-    else:
-        return print('Тип тренировки не определен. '
-                     'Проверьте переданные данные от блока датчиков ')
+    except KeyError:
+        print(f'KeyError: «{workout_type}» - от датчиков устройства '
+               'получен неизвестный код тренировки.')
 
 
 def main(training: Training) -> None:
