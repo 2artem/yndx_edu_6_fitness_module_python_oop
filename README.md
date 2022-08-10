@@ -4,7 +4,10 @@
 Создан в рамках работы с ООП.
 
 
-[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://64.media.tumblr.com/e25467618378f0119090401d4cb46653/eacd61e6d4aa86b8-a0/s540x810/1b6668973fe21534978f11b4723923d95d58ac70.pnj)
+
+<div id="header" align="center">
+  <img src="https://64.media.tumblr.com/e25467618378f0119090401d4cb46653/eacd61e6d4aa86b8-a0/s540x810/1b6668973fe21534978f11b4723923d95d58ac70.pnj" width="100"/>
+</div>
             
 
 
