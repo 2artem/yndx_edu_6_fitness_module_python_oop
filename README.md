@@ -3,11 +3,10 @@
 Программный модуль фитнес-трекера, обрабатывающий данные для трех видов тренировок: для бега, спортивной ходьбы и плавания.
 Создан в рамках работы с ООП.
 
-[<div id="header" align="center">
-  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://downloader.disk.yandex.ru/preview/7124515d152d733efd6e6c31da756d1d0e8cf86ff80b4fa4269f0a236d142f3f/62f3a71b/GiizwpjW-1DEFuzkIz5WFJU16NJL6vdq4XxdXIqGu5K2DGuXPALEKKFr3OrFF8rXy21CnWFTxMzSsTXgFP1rrg%3D%3D?uid=0&filename=1_git_oop.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048)" width="100"/>
-</div>](https://downloader.disk.yandex.ru/preview/7124515d152d733efd6e6c31da756d1d0e8cf86ff80b4fa4269f0a236d142f3f/62f3a71b/GiizwpjW-1DEFuzkIz5WFJU16NJL6vdq4XxdXIqGu5K2DGuXPALEKKFr3OrFF8rXy21CnWFTxMzSsTXgFP1rrg%3D%3D?uid=0&filename=1_git_oop.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048)
 
-x2048
+[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://64.media.tumblr.com/e25467618378f0119090401d4cb46653/eacd61e6d4aa86b8-a0/s540x810/1b6668973fe21534978f11b4723923d95d58ac70.pnj)
+            
+
 
 ***Модуль:***
 
